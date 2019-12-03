@@ -5,7 +5,7 @@
 
     <groupId>cloud.frizio.dev.bugtracker</groupId>
     <artifactId>demo-bug-tracker</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>Demo Bug Tracker</name>
 
