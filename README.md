@@ -1,6 +1,46 @@
-# demoBugTracker
+# Demo Bug Tracker
 
 This application was generated using JHipster 6.5.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.5.1](https://www.jhipster.tech/documentation-archive/v6.5.1).
+
+## Generation
+
+- ? Which _type_ of application would you like to create? Monolithic application (recommended for simple projects)
+- ? What is the base name of your application? demoBugTracker
+- ? What is your default Java package name? cloud.frizio.dev.bugtracker
+- ? Do you want to use the JHipster Registry to configure, monitor and scale your application? No
+- ? Which _type_ of authentication would you like to use? JWT authentication (stateless, with a token)
+- ? Which _type_ of database would you like to use? SQL (H2, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL)
+- ? Which _production_ database would you like to use? MySQL
+- ? Which _development_ database would you like to use? H2 with disk-based persistence
+- ? Do you want to use the Spring cache abstraction? No - Warning, when using an SQL database, this will disable the Hibernate 2nd level cache!
+- ? Would you like to use Maven or Gradle for building the backend? Maven
+- ? Which other technologies would you like to use?
+- ? Which _Framework_ would you like to use for the client? Angular
+- ? Would you like to use a Bootswatch theme (https://bootswatch.com/)? Yeti
+- ? Choose a Bootswatch variant navbar theme (https://bootswatch.com/)? Primary
+- ? Would you like to enable internationalization support? Yes
+- ? Please choose the native language of the application English
+- ? Please choose additional languages to install Italian
+- ? Besides JUnit and Jest, which testing frameworks would you like to use? (Press <space> to select, <a> to toggle all, <i> to invert selection)
+- ? Would you like to install other generators from the JHipster Marketplace? No
+
+## Tests
+
+Run the Java tests
+
+    mvnw test
+
+Run the front-end tests
+
+    npm run test
+
+Run end-to-end tests with Protractor
+
+    npm run e2e
+
+## Run the application locally
+
+    mvnw -Pdev,webpack spring-boot:run
 
 ## Development
 
