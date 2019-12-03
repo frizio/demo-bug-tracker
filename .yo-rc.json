@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "cloud.frizio.dev.bugtracker",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "demoBugTracker",
+    "packageName": "cloud.frizio.dev.bugtracker",
+    "packageFolder": "cloud/frizio/dev/bugtracker",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTM5MWY4MTQ0OTgzMzNkMTk1ZWU3NmZiNWE2ZGRlMzJhNDZhY2NkYzZjMTIwZDdjODVkMjI5ZWM2NTMyOThiN2IyYzUxY2M4ZjEyYmRhMjZjNzUyMTk0NWFmOGM1NWY2ODZjMzQwNjAxNzdiMzhiMTJhNWZjZTcxMmY0YmZjMzU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "it"],
+    "blueprints": []
+  }
+}
